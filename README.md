@@ -26,7 +26,7 @@ java QuestionX
 
 ## Details, Input Format, and Examples
 
-# Question 1: Bracket Balancer
+### Question 1: Bracket Balancer
 Checks if a sequence of brackets is balanced by splitting the string in half and comparing characters using two stacks.
 
 Input Format: A single string containing bracket characters (e.g., (), [], {}).
@@ -40,7 +40,7 @@ Assumptions & Edge Cases:
 
 
 
-# Question 2: Reverse Polish Notation (RPN) Evaluator
+### Question 2: Reverse Polish Notation (RPN) Evaluator
 Evaluates mathematical expressions written in Reverse Polish Notation using a Stack.
 
 Input Format: No dynamic terminal input is required. The test cases are hardcoded in the main method using String arrays.
@@ -58,7 +58,7 @@ Assumptions & Edge Cases:
 
 
 
-# Question 3: Chrono Stack Engine
+### Question 3: Chrono Stack Engine
 Generates the optimal sequence of timeline operations (1, d, +) to achieve a specific target stack configuration from the bottom up, accounting for the + operation's side-effect (reducing the value of all underlying stack elements).
 
 Input Format:
@@ -78,7 +78,7 @@ Assumptions & Edge Cases:
 
 
 
-# Question 4: Stack Sorting
+### Question 4: Stack Sorting
 Sorts an array of integers in ascending order using only one main stack and one temporary/auxiliary stack.
 
 Input Format: A single line containing space-separated integers.
@@ -92,7 +92,7 @@ Assumptions & Edge Cases:
 
 
 
-# Question 5: Momentum Sequence
+### Question 5: Momentum Sequence
 Generates a sequence by continually dividing the initial momentum N by 2 until it reaches 1, and prints the sequence in reverse order (using a Stack).
 
 Input Format: A single integer N.
